@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import { useState, useMemo } from "react";
 import NavbarSidebar from "@/layout/NavbarSidebar";
 import ProtectedRoute from "@/routes/ProtectedRoute";
 import { ResultColumn } from "@/components/table/TableHeaderList";

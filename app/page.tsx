@@ -49,7 +49,7 @@ export default function Login() {
 
             <div>
               <h1 className="text-lg font-bold tracking-wide text-slate-900">
-                PLUS CARD
+                PETRO TRADE
               </h1>
               <p className="mt-0.5 text-sm text-slate-500">
                 ລະບົບທຽບຍອດທຸລະກຳ

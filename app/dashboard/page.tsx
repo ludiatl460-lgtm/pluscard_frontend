@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import {
   PieChart,
   Pie,
@@ -246,7 +246,7 @@ export default function Dashboard() {
                   hint="ສ້າງໃນມື້ນີ້"
                 />
                 <StatCard
-                  title="ເກົ່າກວ່າ 3 ຀ດືອນ"
+                  title="ເກົ່າກວ່າ 3 ເດືອນ"
                   value={report.cards.resultOlderThanThreeMonth}
                   icon={Archive}
                   iconBg="bg-gradient-to-br from-amber-500 to-orange-600"

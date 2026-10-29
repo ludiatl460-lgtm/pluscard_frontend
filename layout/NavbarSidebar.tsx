@@ -162,7 +162,7 @@ export default function NavbarSidebar({
 
             <div>
               <h1 className="text-lg font-bold tracking-wide">
-                PLUS CARD
+                PETRO TRADE
               </h1>
               <p className="text-xs text-indigo-200">
                 Reconciliation Portal
@@ -260,7 +260,7 @@ export default function NavbarSidebar({
 
             <div className="min-w-0">
               <h2 className="truncate text-lg font-bold text-gray-800 sm:text-xl">
-                PLUS CARD
+                PETRO TRADE
               </h2>
               <p className="hidden text-xs text-gray-500 sm:block">
                 Reconciliation Management System

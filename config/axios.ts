@@ -1,6 +1,7 @@
 import axios from "axios";
 const api = axios.create({
-   baseURL: "http://localhost:8000/api",
+   baseURL: "https://app-6ae2e91f.deploy.meerasolution.com/api",
+   // baseURL: "http://localhost:8000/api",
    headers: {"Content-Type": "application/json"}
 });
 

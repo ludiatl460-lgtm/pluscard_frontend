@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { createPortal } from "react-dom";
 import { X, FileText, UserCheck, Layers, CheckCircle2, AlertTriangle, Filter, Printer } from "lucide-react";
 import { Result } from "@/types/Result";

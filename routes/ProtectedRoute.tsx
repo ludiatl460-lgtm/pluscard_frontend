@@ -12,7 +12,7 @@ export default function ProtectedRoute({ children }: ProtectedRouteProps) {
   useEffect(() => {
     const token = localStorage.getItem("token");
     if (!token) {
-      router.push("/login");
+      router.push("/");
     } else {
       setIsLoading(false);
     }
