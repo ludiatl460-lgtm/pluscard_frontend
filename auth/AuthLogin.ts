@@ -14,7 +14,7 @@ export const AuthLogin = async (username: string, password: string) => {
   } catch (error: any) {
     console.error(error);
     if (error.response && error.response.status === 401) {
-      toast.error("ເບີໂທລະສັບ ຫຼື ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ");
+      toast.error("ຊື່ຜູ້ໃຊ້ ຫຼື ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ");
     } else {
       toast.error("ເກີດຂໍ້ຜິດພາດໃນເຊີບເວີ");
     }
